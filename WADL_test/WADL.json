@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "1801bc69-28d4-4056-902a-fcd32fb8150f",
+		"name": "Converted from WADL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "newsSearch",
+			"item": [
+				{
+					"name": "http://api.search.yahoo.com/NewsSearchService/V1/newsSearch",
+					"_postman_id": "4f9b270a-821e-4a92-8988-34905a8b6689",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://api.search.yahoo.com/NewsSearchService/V1/newsSearch?appid=&query=&type=all&results=10&start=1&sort=rank&language=&",
+							"protocol": "http",
+							"host": [
+								"api",
+								"search",
+								"yahoo",
+								"com"
+							],
+							"path": [
+								"NewsSearchService",
+								"V1",
+								"newsSearch"
+							],
+							"query": [
+								{
+									"key": "appid",
+									"value": ""
+								},
+								{
+									"key": "query",
+									"value": ""
+								},
+								{
+									"key": "type",
+									"value": "all"
+								},
+								{
+									"key": "results",
+									"value": "10"
+								},
+								{
+									"key": "start",
+									"value": "1"
+								},
+								{
+									"key": "sort",
+									"value": "rank"
+								},
+								{
+									"key": "language",
+									"value": ""
+								},
+								{
+									"key": null,
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "f31fc793-42c2-49c5-8333-836462dd58d0",
+			"description": "newsSearch"
+		}
+	]
+}
