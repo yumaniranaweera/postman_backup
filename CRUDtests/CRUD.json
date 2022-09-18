@@ -1,0 +1,152 @@
+{
+	"info": {
+		"_postman_id": "4ef08568-87a5-4e4b-bdca-402d532e9beb",
+		"name": "First Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET Request example",
+			"_postman_id": "bd630b8e-0015-42cf-992a-fae6eea8db01",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://example.com"
+			},
+			"response": []
+		},
+		{
+			"name": "GET file example",
+			"_postman_id": "76086ded-1f79-4714-a60d-d5b7d6887e81",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://testtraining.org/data.txt"
+			},
+			"response": []
+		},
+		{
+			"name": "PUT data",
+			"_postman_id": "a1bebe03-d73c-4e2e-a41d-9be7f235f52e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "1,2,3",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": "https://testtraining.org/pudata.php"
+			},
+			"response": []
+		},
+		{
+			"name": "PATCH data",
+			"_postman_id": "ab0b9aee-3f2b-46da-ac88-8d88662c0400",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "2=Charlie",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": "https://testtraining.org/patchdata.php"
+			},
+			"response": []
+		},
+		{
+			"name": "POST Example",
+			"_postman_id": "bcc013ce-6bde-46fc-a931-20d6eca3c231",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "firstname",
+							"value": "Martin",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "Glasgow",
+							"type": "text"
+						}
+					],
+					"options": {
+						"formdata": {}
+					}
+				},
+				"url": "https://testtraining.org/postform.php"
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE data",
+			"_postman_id": "a3ff674a-61cc-4549-b48d-5b292e524075",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://testtraining.org/patchdata.php"
+			},
+			"response": []
+		},
+		{
+			"name": "Basic auth test",
+			"_postman_id": "d09aa1a9-b7c2-4dcd-b206-918b8a2ee8b6",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://testtraining.org/basicauth/index.html"
+			},
+			"response": []
+		},
+		{
+			"name": "JSON example",
+			"_postman_id": "861573e0-d821-4ba2-88fc-a5b1103a45ee",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"searchstring\" : \"Alice\"\n}",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": "https://testtraining.org/jsonexample.php"
+			},
+			"response": []
+		}
+	]
+}
